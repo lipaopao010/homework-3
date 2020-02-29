@@ -1,0 +1,45 @@
+body {
+    background-color:#333;
+    color:black;
+    
+    padding-top: 50px;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.container{
+    background-color: rgb(234, 245, 250);
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 40px;
+    padding-top: 40px;
+    border-radius: 1rem;
+    position: relative;
+    text-align: center;
+    margin: 2rem;
+
+
+}
+
+.form {
+    background-color: white;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+p {
+    border-style: dotted;
+    border-color: gray;
+    margin: auto;
+    padding: 4rem;
+   
+    
+}
+#submit{
+    padding: 5px;
+    margin: 5px;
+
+}
+
+}
