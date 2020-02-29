@@ -16,10 +16,9 @@ body {
     border-radius: 1rem;
     position: relative;
     text-align: center;
-    margin: 2rem;
 }
 
-.form {
+.block {
     background-color: white;
     align-items: center;
     display: flex;
