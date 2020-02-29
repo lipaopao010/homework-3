@@ -22,29 +22,46 @@ submit.addEventListener("click",function(e){
     
     //the function will start when the length entered is number and between 8 to 128
     if (length >= 8 && length <= 128){
-        
+        alert("The length of password is "+ length);
         var passwordTotal = "";
         //console.log(passwordTotal);
         //choose character types:lowercase,uppercase,numeric,special characters//
         var confirmLowerCase = confirm("Do you want to include lowercase?");
-        var confirmUperCase = confirm ("Do you want to include Uppercase?");
-        var confirmNumber = confirm ("Do you want to include number?");
-        var confirmSpecial = confirm ('Do you want to include special characters?');
-     
         if (confirmLowerCase){
+            alert("Lowercase included")
             passwordTotal=passwordTotal+ char;
         }
+        else {
+            alert("Lowercase not included");
+        }
+
+        var confirmUperCase = confirm ("Do you want to include Uppercase?");
 
         if (confirmUperCase){
+            alert("Uppercase included");
             passwordTotal=passwordTotal+ charUpper;
         }
+        else {
+            alert("Uppercase not included");
+        }
+
+        var confirmNumber = confirm ("Do you want to include number?");
 
         if (confirmNumber){
+            alert("Number included");
             passwordTotal=passwordTotal+ num;
         }
-        
+        else{
+            alert("Number not included");
+        }
+        var confirmSpecial = confirm ('Do you want to include special characters?');
+     
         if (confirmSpecial){
+            alert("Special character included");
             passwordTotal=passwordTotal+ sym;
+        }
+        else{
+            alert("Special character not included");
         }
         
         //create a loop to generate random characters
@@ -64,12 +81,9 @@ submit.addEventListener("click",function(e){
         else{
             alert("You  need to choose at least one character type!");
         }
-       
-        
     }
     else{
-        alert("Please enter a number between 8 to 128 ");
-        
+        alert("Please enter a number between 8 to 128 ");  
     }
 
 

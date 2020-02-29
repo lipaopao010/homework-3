@@ -1,7 +1,6 @@
 body {
     background-color:#333;
     color:black;
-    
     padding-top: 50px;
     justify-content: center;
     align-items: center;
@@ -18,8 +17,6 @@ body {
     position: relative;
     text-align: center;
     margin: 2rem;
-
-
 }
 
 .form {
@@ -32,14 +29,16 @@ p {
     border-style: dotted;
     border-color: gray;
     margin: auto;
-    padding: 4rem;
-   
-    
+    padding: 4rem; 
 }
 #submit{
     padding: 5px;
     margin: 5px;
-
 }
 
+hr{
+    width: 90%;
+    color: rgb(213, 240, 247);
+    height: 1px;
+    
 }
