@@ -1,4 +1,4 @@
-# password generator#
+# password generator
 
 In this project, I created a password generator using javascript.
 
@@ -14,4 +14,4 @@ Some topics used in this project are listed as below:
 *Logical, comparison, and ternary operators
 *for loop
 *Functions
-*Alerts, prompts, and confirms
+*Alerts, prompts, and confirms.
